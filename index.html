@@ -1,121 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
 </head>
-<style>
-
-/* GRID */
-.grid {
-display: grid;
-min-width: 100%;
-min-height: 1000px;
-border: 5px;
-}
-
-.container {
-  display: grid;
-  grid-template-columns: 30% 20% 20% 30%;
-  grid-template-rows: 5% 40% 5% 50% 5%;
-}
-
-.gap{
-gap: 5px;
-}
-
-.subgrid {
-display: grid;
-grid-template-rows: 1fr 1fr;
-grid-area: 4/1/5/1;
-}
-
-/* ITENS */
-
-.item1{
-background-color: aqua;
-background-image: url(IMAGENS/1.jpg);
-grid-area: 1/1/1/6;
-}
-
-.item2{
-background-color: rgb(204, 0, 255);
-background-image: url(IMAGENS/2.jpg);
-grid-area: 2/2/3/3;
-
-}
-
-.item3{
-background-color: bisque;
-background-image: url(IMAGENS/3.jpg);
-grid-area: 2/3/3/4;
-
-}
-
-.item4{
-background-color: brown;
-background-image: url(IMAGENS/4.jpg);
-grid-area: 3/2/3/4;
-}
-
-.item5 {
-background-color: rgb(29, 75, 46);
-background-image: url(IMAGENS/5.jpg);
-grid-area: 4/2/5/4;
-}
-
-.item6 {
-background-color: rgb(116, 168, 184);
-background-image: url(IMAGENS/6.jpg);
-grid-area: 2/1/4/2;
-}
-
-.item7 {
-background-color: rgb(88, 58, 94);
-background-image: url(IMAGENS/10.jpg);
-grid-area: 2/4/5/4;
-}
-
-.item8 {
-background-color: rgb(221, 168, 88);
-background-image: url(IMAGENS/7.jpg);
-grid-area: 1/1/1/2;
-max-height: 50%;
-}
-
-.item9 {
-background-color: rgb(230, 198, 150);
-background-image: url(IMAGENS/8.jpg);
-grid-area: 2/1/2/2;
-max-height: 90%;
-}
-
-.item10 {
-background-color: rgb(240, 227, 208);
-background-image: url(IMAGENS/9.jpg);
-grid-area: 3/1/3/2;
-max-height: 70%;
-}
-
-
-
-</style>
 
 <body>
-  <div class="grid container gap">
-    <div class="item1"></div>
-    <div class="item2"></div>
-    <div class="item3"></div>
-    <div class="item4"></div>
-    <div class="item5"></div>
-    <div class="item6"></div>
-    <div class="item7"></div>
-    <div class="item subgrid">
-      <div class="item8"></div>
-      <div class="item9"></div>
-      <div class="item10"></div>
-    </div>
+    <main>
+        <div class="grid-album">
+            <div><h1> GRID DE FOTOS</h1></div>
+            <div>
+                <img src="IMAGENS/1.jpg">
+            </div>
+            <div>
+                <img src="IMAGENS/2.jpg">
+            </div>
 
-  </div>
-</section>
-</div>
+            <div><img src="IMAGENS/3.jpg">
+            </div>
+
+            <div><img src="IMAGENS/4.jpg">
+            </div>
+
+            <div><img src="IMAGENS/5.jpg">
+            </div>
+
+            <div><img src="IMAGENS/6.jpg">
+            </div>
+
+            <div><img src="IMAGENS/7.jpg">
+            </div>
+          
+            <div><img src="IMAGENS/8.jpg">
+            </div>
+
+            <div><img src="IMAGENS/9.jpg">
+            </div>
+
+            <div><img src="IMAGENS/10.jpg">
+            </div>
+            <div><h6> © CAMILA NUNES 2023 All Rights Reserved</h6></div>
+            
+        </div>
+      
+    </main>
+
 </body>
+
 </html>
